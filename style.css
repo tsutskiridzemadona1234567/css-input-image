@@ -1,0 +1,51 @@
+body{
+  background-color: #E0E0E0;
+}
+form{
+  margin-left: auto;
+  margin-right: auto;
+  width: 378px;
+  height: 489px;
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  border: 1px solid #F5F5F5;
+}
+img{
+  width: 359px;
+  height: 200.52px;
+  margin: 10px;
+}
+label{
+  color: #616161;
+  margin-left: 30px;
+  font-family: "chemi fonti";
+  src: url("./Inter-Regular.ttf");
+}
+input{
+  color: #9E9E9E;
+  padding-left: 10px;
+  width: 315px;
+  height: 45px;
+  margin-left: 30px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #F4B4B4;
+}
+.submit{
+  border: 1px solid #000000;
+  background-color: #6756CB;
+  color: #FFFFFF;
+  font-weight: bolder;
+  border-radius: 10px;
+  width: 325px;
+}
+.email::placeholder{
+  background-image: url(person-bounding-box\ 1111.png);
+  background-repeat: no-repeat;
+  background-position: right 15px bottom 45%;
+}
+.password::placeholder{
+  background-image: url(eye-slash\ 1112.png);
+  background-repeat: no-repeat;
+  background-position: right 15px bottom 45%;
+}
